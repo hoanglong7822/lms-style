@@ -1,0 +1,33 @@
+* {
+  border: 2px solid lime !important;
+  background: rgba(255, 0, 0, 0.08) !important;
+  color: #00ff00 !important;
+  box-shadow: 0 0 10px cyan !important;
+  transition: all 0.2s ease !important;
+}
+
+*:hover {
+  background: rgba(0, 255, 255, 0.2) !important;
+  transform: scale(1.01) !important;
+}
+
+body {
+  background: #000 !important;
+}
+
+img {
+  filter: hue-rotate(180deg) saturate(3) !important;
+}
+
+p,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
