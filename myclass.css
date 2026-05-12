@@ -1,4 +1,33 @@
-object[type="application/pdf"] {
+/* object[type="application/pdf"] {
   height: 80vh !important;
   width: 100% !important;
+} */
+/* Ẩn title */
+.pdf_block h2 {
+  display: none !important;
+}
+
+/* Ẩn nút download */
+.pdf_block ul {
+  display: none !important;
+}
+
+/* Full màn hình */
+.pdf_block {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 999999 !important;
+  background: white !important;
+}
+
+/* PDF full màn hình */
+.pdf_block object {
+  width: 100vw !important;
+  height: 100vh !important;
+  border: none !important;
+  display: block !important;
 }
