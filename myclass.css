@@ -1,6 +1,4 @@
-html,
-body {
-  border: 3px solid rgb(221, 33, 33) !important;
-  box-sizing: border-box;
-  min-height: 100vh;
+object[type="application/pdf"] {
+  height: 80vh !important;
+  width: 100% !important;
 }
