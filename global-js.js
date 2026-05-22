@@ -16,18 +16,9 @@ window.addEventListener("load", () => {
       iframeDoc.createElement("style");
 
     style.innerHTML = `
-      .h5p-content {
-        font-size: clamp(12px, 1vw + 0.5rem, 18px) !important;
-        line-height: 1.6 !important;
-      }
 
       .h5p-question-check-answer {
         display: none !important;
-      }
-
-      .h5p-container {
-        width: 100vw !important;
-        height: 100vh !important;
       }
     `;
 
