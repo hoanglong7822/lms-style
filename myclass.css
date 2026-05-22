@@ -88,3 +88,6 @@ view-in-course {
   background-color: #fff !important;
   border: 1px solid red !important;
 }
+body.view-in-course {
+    min-height: fit-content !important;
+}
