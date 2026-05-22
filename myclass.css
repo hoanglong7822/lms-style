@@ -32,59 +32,59 @@
   display: block !important;
 }
 html.h5p-iframe .h5p-content {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 18px !important;
+  line-height: 1.6 !important;
 }
 
 /* Large Desktop */
 @media (max-width: 1440px) {
   html.h5p-iframe .h5p-content {
-    font-size: 17px;
+    font-size: 17px !important;
   }
 }
 
 /* Laptop */
 @media (max-width: 1200px) {
   html.h5p-iframe .h5p-content {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 }
 
 /* Tablet Landscape */
 @media (max-width: 992px) {
   html.h5p-iframe .h5p-content {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 }
 
 /* Tablet */
 @media (max-width: 768px) {
   html.h5p-iframe .h5p-content {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 
 /* Large Mobile */
 @media (max-width: 576px) {
   html.h5p-iframe .h5p-content {
-    font-size: 13px;
+    font-size: 13px !important;
   }
 }
 
 /* Small Mobile */
 @media (max-width: 480px) {
   html.h5p-iframe .h5p-content {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 }
 
 /* Very Small Mobile */
 @media (max-width: 360px) {
   html.h5p-iframe .h5p-content {
-    font-size: 11px;
+    font-size: 11px !important;
   }
 }
 view-in-course {
-  background-color: #fff;
-  border: 1px solid red;
+  background-color: #fff !important;
+  border: 1px solid red !important;
 }
